@@ -33,8 +33,8 @@
 ## Быстрый запуск
 
 <div align="center">
-<img src="docs/assets/player.png" alt="Компактный плеер с обложкой, временем и управлением" width="370">
-<p><sub>Снимок работающего приложения в режиме просмотра дизайна. Демонстрационные трек и обложка; активность в Discord не отправляется.</sub></p>
+<img src="docs/assets/player-live.png" alt="Я · Presence: red weather — onda andar, пауза на 1:07 из 1:44" width="440">
+<p><sub>Настоящий снимок приложения Windows, подключённого к Яндекс Музыке и Discord.</sub></p>
 </div>
 
 1. Скачайте **YandexMusicPresence.exe** из [релизов](https://github.com/Xijk666/YandexMusicPresence/releases/latest). Для готового EXE Python не нужен.

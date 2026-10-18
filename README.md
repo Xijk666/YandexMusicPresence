@@ -33,8 +33,8 @@ The desktop window shows **elapsed / total** and **time remaining**. Its interfa
 ## Start in a minute
 
 <div align="center">
-<img src="docs/assets/player.png" alt="Compact desktop player with album art, timing and playback controls" width="370">
-<p><sub>The running app in isolated design preview mode. Sample artwork and track; no activity is sent to Discord.</sub></p>
+<img src="docs/assets/player-live.png" alt="Ya Presence showing red weather by onda andar, paused at 1:07 of 1:44" width="440">
+<p><sub>Actual Windows application connected to Yandex Music and Discord.</sub></p>
 </div>
 
 1. Download **YandexMusicPresence.exe** from [Releases](https://github.com/Xijk666/YandexMusicPresence/releases/latest). Python is not needed for the EXE.
