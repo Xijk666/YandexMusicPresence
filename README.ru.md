@@ -32,6 +32,11 @@
 
 ## Быстрый запуск
 
+<div align="center">
+<img src="docs/assets/player.png" alt="Компактный плеер с обложкой, временем и управлением" width="370">
+<p><sub>Снимок работающего приложения в режиме просмотра дизайна. Демонстрационные трек и обложка; активность в Discord не отправляется.</sub></p>
+</div>
+
 1. Скачайте **YandexMusicPresence.exe** из [релизов](https://github.com/Xijk666/YandexMusicPresence/releases/latest). Для готового EXE Python не нужен.
 2. Откройте современное [приложение Яндекс Музыки для Windows](https://music.yandex.ru/download/) и Discord для ПК.
 3. Запустите EXE и включите песню.
@@ -110,7 +115,8 @@ cd YandexMusicPresence
 ```powershell
 .venv/Scripts/python.exe -m unittest discover -s tests -v
 python scripts/check_project.py
-.venv/Scripts/python.exe scripts/package_release.py --exe build/dist/YandexMusicPresence.exe --version 1.0.0 --out build/release
+.venv/Scripts/python.exe scripts/check_ui.py
+.venv/Scripts/python.exe scripts/package_release.py --exe build/dist/YandexMusicPresence.exe --version 1.1.0 --out build/release
 ```
 
 | Путь | Назначение |
@@ -121,6 +127,7 @@ python scripts/check_project.py
 | `src/discord_ipc.py` | Именованные каналы, фреймы, таймауты, PING/PONG и подтверждения |
 | `src/engine.py` | Рабочий цикл, повторные запросы и переподключение |
 | `src/app.py` | Русский интерфейс и трей |
+| `src/interface.py` | Компактный плеер, настройки, управление и диагностика |
 | `tests/` | Проверки с изолированным IPC и подменёнными HTTP-ответами |
 | `scripts/` | Проверка файлов и упаковка релиза |
 

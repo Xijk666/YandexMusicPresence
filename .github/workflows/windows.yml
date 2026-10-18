@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies, run tests, build EXE
         shell: pwsh
         run: ./build.ps1
+      - name: Check compact player layouts and keyboard focus
+        shell: pwsh
+        run: .venv/Scripts/python.exe scripts/check_ui.py
       - name: Package portable release
         shell: pwsh
         run: |

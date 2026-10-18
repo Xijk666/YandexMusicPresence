@@ -23,6 +23,8 @@ Run on Windows: IPC code depends on `kernel32` and media-session code uses WinRT
 
 ## Manual checks
 
+`python scripts/check_ui.py` also creates an isolated preview and checks compact-window bounds with long titles, play/pause and empty states, page navigation and keyboard focus. It runs in the Windows workflow and never starts the Discord engine.
+
 With current Yandex Music and Discord desktop apps open:
 
 1. Start a song and compare title, artist and elapsed/total time.

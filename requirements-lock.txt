@@ -1,4 +1,6 @@
 altgraph==0.17.5
+customtkinter==6.0.0
+darkdetect==0.8.0
 packaging==26.3
 pefile==2024.8.26
 pillow==12.3.0

@@ -32,6 +32,11 @@ The desktop window shows **elapsed / total** and **time remaining**. Its interfa
 
 ## Start in a minute
 
+<div align="center">
+<img src="docs/assets/player.png" alt="Compact desktop player with album art, timing and playback controls" width="370">
+<p><sub>The running app in isolated design preview mode. Sample artwork and track; no activity is sent to Discord.</sub></p>
+</div>
+
 1. Download **YandexMusicPresence.exe** from [Releases](https://github.com/Xijk666/YandexMusicPresence/releases/latest). Python is not needed for the EXE.
 2. Open the current [Yandex Music Windows app](https://music.yandex.ru/download/) and Discord desktop.
 3. Run the EXE and play a song.
@@ -110,7 +115,8 @@ The script creates `.venv`, installs the pinned dependencies, runs the tests and
 ```powershell
 .venv/Scripts/python.exe -m unittest discover -s tests -v
 python scripts/check_project.py
-.venv/Scripts/python.exe scripts/package_release.py --exe build/dist/YandexMusicPresence.exe --version 1.0.0 --out build/release
+.venv/Scripts/python.exe scripts/check_ui.py
+.venv/Scripts/python.exe scripts/package_release.py --exe build/dist/YandexMusicPresence.exe --version 1.1.0 --out build/release
 ```
 
 | Path | Purpose |
@@ -121,6 +127,7 @@ python scripts/check_project.py
 | `src/discord_ipc.py` | Framed named-pipe transport, timeouts, PING/PONG and ACKs |
 | `src/engine.py` | Playback loop, retries and reconnects |
 | `src/app.py` | Russian desktop UI and tray |
+| `src/interface.py` | Compact player, settings, controls and diagnostics |
 | `tests/` | Regression suite with isolated IPC and mocked HTTP |
 | `scripts/` | Project validation and release packaging |
 
