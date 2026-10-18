@@ -1,0 +1,32 @@
+name: Bug report / Ошибка
+description: Report playback, artwork, tray or Discord issues / Сообщить об ошибке
+title: '[Bug] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened? / Что произошло?
+      description: Expected and actual behavior. English or Russian is welcome.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Windows, app and Yandex Music versions / Версии
+    validations:
+      required: true
+  - type: input
+    id: track
+    attributes:
+      label: Track and artist, if relevant / Трек и исполнитель
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / Шаги воспроизведения
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics / Диагностика
+      description: Paste relevant Diagnostics text. Remove personal paths. Do not include passwords or tokens.

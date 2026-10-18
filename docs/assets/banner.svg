@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">Ya Presence — your music on Discord</title>
+<desc id="desc">Headphones with an online indicator, project title and an illustrated listening card</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101116"/><stop offset="1" stop-color="#181d25"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#ffce3a"/><stop offset="1" stop-color="#6de3a4"/></linearGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".025"/></pattern>
+</defs>
+<rect width="1280" height="440" rx="28" fill="url(#bg)"/>
+<rect width="1280" height="440" rx="28" fill="url(#grid)"/>
+<path d="M40 408H1240" stroke="url(#line)" stroke-width="2" opacity=".55"/>
+<g transform="translate(56 48)" fill="none">
+<rect width="74" height="74" rx="20" fill="#242630"/>
+<path d="M17 43V34a20 20 0 0 1 40 0v9" stroke="#ffce3a" stroke-width="7" stroke-linecap="round"/>
+<rect x="12" y="35" width="14" height="25" rx="6" fill="#ffce3a"/>
+<rect x="48" y="35" width="14" height="25" rx="6" fill="#ffce3a"/>
+<circle cx="62" cy="60" r="8" fill="#6de3a4" stroke="#242630" stroke-width="4"/>
+</g>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="148" y="78" font-size="23" font-weight="700" fill="#f4f4f8">Ya Presence</text>
+<text x="148" y="104" font-size="12" letter-spacing="2" fill="#9b9dac">Y A N D E X   M U S I C   ×   D I S C O R D</text>
+<text x="56" y="199" font-size="58" font-weight="750" letter-spacing="-1.5" fill="#f4f4f8">Your music.</text>
+<text x="56" y="265" font-size="58" font-weight="750" letter-spacing="-1.5" fill="#ffce3a">Now on Discord.</text>
+<text x="58" y="308" font-size="17" fill="#aab1bd">Accurate timing. Album art. Quietly in your tray.</text>
+<g font-size="12" font-weight="600">
+<rect x="56" y="340" width="102" height="30" rx="15" fill="#252934"/><text x="107" y="360" text-anchor="middle" fill="#d1d7df">WINDOWS</text>
+<rect x="168" y="340" width="105" height="30" rx="15" fill="#252934"/><text x="220" y="360" text-anchor="middle" fill="#d1d7df">OPEN SOURCE</text>
+<rect x="283" y="340" width="116" height="30" rx="15" fill="#213830"/><circle cx="299" cy="355" r="3" fill="#6de3a4"/><text x="341" y="360" text-anchor="middle" fill="#8ee5b6">LISTENING</text>
+</g>
+<g transform="translate(754 105)">
+<rect width="470" height="240" rx="22" fill="#0c0f14" stroke="#303540"/>
+<circle cx="26" cy="26" r="4" fill="#6de3a4"/>
+<text x="40" y="31" font-size="12" font-weight="600" letter-spacing=".8" fill="#aab1bd">LISTENING TO YANDEX MUSIC</text>
+<g transform="translate(22 61)">
+<rect width="100" height="100" rx="16" fill="#ffce3a"/>
+<path d="M25 56V44a25 25 0 0 1 50 0v12" fill="none" stroke="#171b22" stroke-width="8" stroke-linecap="round"/>
+<rect x="17" y="47" width="19" height="30" rx="8" fill="#171b22"/><rect x="64" y="47" width="19" height="30" rx="8" fill="#171b22"/>
+</g>
+<text x="143" y="87" font-size="19" font-weight="700" fill="#f4f4f8">Your favourite track</text>
+<text x="143" y="115" font-size="15" fill="#b3bdca">Artist</text>
+<text x="143" y="141" font-size="13" fill="#7e8b9d">Album · Artwork · Track link</text>
+<rect x="24" y="184" width="422" height="4" rx="2" fill="#303642"/><rect x="24" y="184" width="135" height="4" rx="2" fill="#6de3a4"/>
+<circle cx="159" cy="186" r="4" fill="#6de3a4"/>
+<text x="24" y="213" font-size="12" fill="#b3bdca">1:12</text><text x="446" y="213" text-anchor="end" font-size="12" fill="#7e8b9d">3:45</text>
+</g>
+<text x="989" y="372" text-anchor="middle" font-size="11" letter-spacing=".7" fill="#6a7484">ILLUSTRATED PRESENCE PREVIEW</text>
+</g>
+</svg>
